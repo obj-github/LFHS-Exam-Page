@@ -5,7 +5,7 @@ $(document).ready(function() {
     var currentSrc = $(this).attr("src");
       
 // Toggle between "menu.svg" and "close.svg"
-    var newSrc = currentSrc === "menu.svg" ? "close.svg" : "media/menu.svg";
+    var newSrc = currentSrc === "menu.svg" ? "close.svg" : "menu.svg";
 
     // Change the image source
     $(this).attr("src", newSrc);
