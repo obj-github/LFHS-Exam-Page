@@ -1,0 +1,127 @@
+/* From Uiverse.io by Praashoo7 */ 
+body{
+  display: flex;
+  flex-direction: column;
+}
+.main, nav {
+  background-color: white;
+  padding: 1em;
+  padding-bottom: 1.1em;
+  border-radius: 15px;
+  margin: 1em;
+      padding: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      display: block;
+       border-radius: 15px;
+}
+
+header, footer{
+  display: grid;
+  gap: 1px;
+  padding: 1px;
+  background-color: #031546;
+  color: #dde64c;
+}
+nav>button>a{
+  text-decoration: none;
+  color: #031546;
+}
+a{
+  text-decoration: none;
+  color: #031546;
+  font-weight: bold;
+}
+.heading {
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  align-self: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.logo{
+  width: 70px;
+  height: 45px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+}
+
+.artist {
+  font-size: 0.6em;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.menu{
+  width: 70px;
+  height: 45px;
+  float: right; 
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+}
+nav{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  background-color: #dde64c;
+  color: 031546;
+  border: 0px;
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-left: 2px;
+  margin: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 6px;
+  display: block;
+  width: 170px;
+}
+
+footer{
+  margin-top: auto;
+}
+.list1{
+  grid-column-start: 1;
+  
+}
+.list2{
+  grid-column-start: 2;
+}
+@keyframes move6 {
+  0% {
+    height: 0.2em;
+  }
+
+  25% {
+    height: 0.7em;
+  }
+
+  50% {
+    height: 1.5em;
+  }
+
+  100% {
+    height: 0.2em;
+  }
+}
+
+div>ul>li::marker{
+  content: '📍';
+}
+footer>ul>li::marker{
+  content: ' ';
+}
